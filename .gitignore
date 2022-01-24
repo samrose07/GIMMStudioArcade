@@ -1,13 +1,14 @@
 # Modified from:
 #     https://github.com/github/gitignore/blob/master/Unity.gitignore
 
-/[Ll]ibrary/
+/[Ll]ibrary
 /[Uu]serSettings/
 [Tt]emp/
 [Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
-[Ll]ogs/
+/[Ll]ogs/
+*.log
 /[Mm]emoryCaptures/
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
@@ -61,3 +62,35 @@ Thumbs.db.meta
 
 # VS Code
 *.vscode
+gimmStudio/Library/ArtifactDB
+gimmStudio/Library/Artifacts/03/03d7305a49b3433b7df461c3fd614de1
+gimmStudio/Library/Artifacts/3a/3a8d091ae6dc056c62658f6b8b2382c3
+gimmStudio/Library/Artifacts/6a/6a3b43c57c07245239de38b833de32bb
+gimmStudio/Library/Artifacts/d7/d74918648b1fc22d79adaa00a6498b7e
+gimmStudio/Library/EditorInstance.json
+gimmStudio/Library/SceneVisibilityState.asset
+gimmStudio/Library/ScriptAssemblies/Assembly-CSharp.dll
+gimmStudio/Library/SourceAssetDB
+gimmStudio/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+gimmStudio/Logs/AssetImportWorker0.log
+gimmStudio/Logs/shadercompiler-AssetImportWorker0.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe1.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe10.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe11.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe12.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe13.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe14.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe15.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe2.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe3.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe4.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe5.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe6.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe7.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe8.log
+gimmStudio/Logs/shadercompiler-UnityShaderCompiler.exe9.log
+*.log
+gimmStudio/Library/ArtifactDB
+*.asset
+*.dll
