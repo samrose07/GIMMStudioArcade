@@ -21,7 +21,10 @@ namespace Com.MyCompany.MyGame
         const string playerNamePrefKey = "PlayerName";
 
         #endregion
-
+        public MeshRenderer avatar;
+        public Slider face;
+        public Slider hair;
+        public Slider body;
         #region MonoBehaviour CallBacks
 
         /// <summary>
@@ -64,6 +67,16 @@ namespace Com.MyCompany.MyGame
             PlayerPrefs.SetString(playerNamePrefKey, value);
         }
 
+        public void AvatarChange()
+        {
+            Color color = avatar.material.color;
+            color.r = hair.value;
+            color.g = face.value;
+            color.b = body.value;
+            avatar.material.color = color;
+            avatar.material.SetColor("AvatarMaterial", color);
+        }
+       
         #endregion
     }
 }

@@ -4,7 +4,7 @@ using System.Collections;
 
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 using Photon.Pun;
 using Photon.Realtime;
@@ -19,6 +19,7 @@ namespace Com.MyCompany.MyGame
         [Tooltip("The prefab to use for representing the player")]
         public GameObject vrPlayerPrefab;
         public GameObject PlayerPrefab;
+        private MeshRenderer player;
 
         private void Start()
         {
@@ -36,6 +37,7 @@ namespace Com.MyCompany.MyGame
                     {
                         Debug.Log("You on Windows");
                         PhotonNetwork.Instantiate(this.PlayerPrefab.name, new Vector3(0f, 5f, 0f), Quaternion.identity, 0);
+                        
                     }
                     if(Application.platform == RuntimePlatform.Android)
                     {

@@ -25,6 +25,14 @@ namespace Com.MyCompany.MyGame
         [SerializeField]
         private GameObject progressLabel;
 
+        [Tooltip("The UI panel that you see when you start the game")]
+        [SerializeField]
+        private GameObject welcomePanel;
+
+        [Tooltip("The avatar we are going to use")]
+        [SerializeField]
+        private GameObject avatarModel;
+
         #endregion
 
         #region Private Fields
@@ -60,12 +68,22 @@ namespace Com.MyCompany.MyGame
         {
             //Connect();
             progressLabel.SetActive(false);
-            controlPanel.SetActive(true);
+            controlPanel.SetActive(false);
+            welcomePanel.SetActive(true);
+            avatarModel.SetActive(false);
         }
 
         #endregion
 
         #region Public Methods
+
+
+        public void StartGame()
+        {
+            welcomePanel.SetActive(false);
+            controlPanel.SetActive(true);
+            avatarModel.SetActive(true);
+        }
         /// <summary>
         /// Start the connection process.
         /// - If already connected, we attempt joining a random room
@@ -75,6 +93,7 @@ namespace Com.MyCompany.MyGame
         {
             progressLabel.SetActive(true);
             controlPanel.SetActive(false);
+            avatarModel.SetActive(false);
 
             if (PhotonNetwork.IsConnected)
             {
