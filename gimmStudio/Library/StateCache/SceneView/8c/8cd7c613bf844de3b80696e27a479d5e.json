@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":550.5,"y":259.5,"z":0.0},"rotation":{"x":0.10786429792642594,"y":0.06556042283773422,"z":-0.0071349721401929859,"w":0.9919963479042053},"size":90.32633972167969,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-17.2653751373291,"y":0.03165830299258232,"z":18.884143829345704},"rotation":{"x":0.03548746556043625,"y":-0.3450276255607605,"z":0.013026203960180283,"w":0.9378969073295593},"size":14.1443452835083,"orthographic":false}
+>>>>>>> QuestsBranch
